@@ -17,7 +17,7 @@ public:
     ~Graph() = default;
 
     void read_graph(std::string filename);
-    void read_graph_with_to_weights(std::string filename);
+    void read_graph_with_weights(std::string filename);
 
     void add_edge(int from, int to);
     void add_edge_with_weight(int from, int to, int weight);
@@ -52,7 +52,7 @@ void Graph::read_graph(std::string filename)
     }
 }
 
-void Graph::read_graph_with_to_weights(std::string filename)
+void Graph::read_graph_with_weights(std::string filename)
 {
     to_list.clear();
     to_weights.clear();
@@ -278,7 +278,7 @@ int main(int argc, char** argv)
     }
 
     Graph graph;
-    graph.read_graph_with_to_weights(argv[1]);
+    graph.read_graph_with_weights(argv[1]);
 
     int start_node = atoi(argv[2]);
     Graph mst_graph = mst(graph, start_node);
