@@ -1,2 +1,6 @@
 # Binaries
 *.out
+
+weekly-exercise/
+
+vgcore*
