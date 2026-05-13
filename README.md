@@ -5,7 +5,7 @@ Programming tasks for the course Data Structure and Algorithms 2 at the universi
 Inside each folder that belongs to a particular problem and a example *input.txt* file. Use the compiler of choice to compile the file given. I will only use *C* and *C++* for solutions.
 
 ## Minimum spanning tree
-Inside the `mst/` directory, complie as
+Inside the `mst/` directory, compile as
 ```bash
 g++ mst.cpp
 ```
@@ -24,3 +24,14 @@ Run the program as
 ./a.out input.txt
 ```
 Lmao, not doing the rest with C at all. Will stick with C++ for mental well-being.
+
+## Articulation-node and Bridge detection
+Inside the `articulation-node-bridge/` directory, compile as
+```bash
+g++ artbridges.cpp
+```
+
+Run the program as,
+```bash
+./a.out input.txt
+```
