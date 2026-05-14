@@ -35,3 +35,14 @@ Run the program as,
 ```bash
 ./a.out input.txt
 ```
+
+## 3-way-quicksort with MSD radix sort for sorting strings
+Inside the `3-way-qs-msd-radix-strings/` directory, compile as
+```bash
+g++ strquick3.cpp
+```
+
+Run the program as,
+```bash
+./a.out input.txt
+```
