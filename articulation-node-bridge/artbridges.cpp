@@ -95,7 +95,6 @@ int procedure(Node& current,
         if (!visited.count(next_node))
         {
             children++;
-            visited.insert(next_node);
             procedure(it->second, current.value, visited, current_step, ap, bridges);
 
             if (parent != INVALID_PARENT)
