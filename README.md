@@ -46,3 +46,15 @@ Run the program as,
 ```bash
 ./a.out input.txt
 ```
+
+## Morris-Pratt string matching
+Inside the `mp-string-matching/` directory, compile as
+```bash
+g++ mp.cpp
+```
+
+Run the program as,
+```bash
+./a.out input.txt
+```
+
